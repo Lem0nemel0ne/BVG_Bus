@@ -1,0 +1,65 @@
+/* Reset some default styling */
+body,
+h1,
+h2,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply some basic styling to the entire page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+}
+
+/* Style the header */
+header {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+/* Style the sections */
+section {
+  margin: 2rem auto;
+  max-width: 800px;
+  background-color: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 1.5rem;
+}
+
+/* Style the headings */
+h2 {
+  margin-bottom: 1rem;
+}
+
+/* Style the table container */
+.table-container {
+  overflow-x: auto;
+}
+
+/* Style the list of buses */
+.bus-list {
+  list-style: none;
+  padding: 0;
+}
+
+/* Style individual bus items */
+.bus-item {
+  padding: 0.5rem 1rem;
+  border-bottom: 1px solid #eee;
+}
+
+/* Apply a background color to marked bus items */
+.marked .bus-item {
+  background-color: #f4f4f4;
+}
+
+/* Apply hover effect to bus items */
+.bus-item:hover {
+  background-color: #f4f4f4;
+  cursor: pointer;
+}
